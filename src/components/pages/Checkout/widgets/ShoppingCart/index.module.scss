@@ -1,0 +1,11 @@
+@import "../../../../../styles/index.scss";
+.background {
+    .fontSizeWeight {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .total  {
+        padding: 20px 40px 40px 40px;
+        @extend .fontSizeWeight;
+    }
+}

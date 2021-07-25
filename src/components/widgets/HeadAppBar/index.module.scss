@@ -1,0 +1,16 @@
+@import "../../../styles/index.scss";
+.background {
+    .cart    {
+        margin-left: auto;        
+        margin-right: 20px;        
+        font-size: 17px;     
+    }
+    .cartIcon    {   
+        margin-right: 20px;
+    }
+    .checkoutBtn    {
+        color: $commonWhite;
+        font-weight: 500;
+        font-size: 17px;
+    }
+}

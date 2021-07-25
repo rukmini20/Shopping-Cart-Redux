@@ -1,0 +1,25 @@
+@import "../../../../../styles/index.scss";
+.background {
+    height: auto;
+    border-bottom: 1px solid $commonGrey;
+    padding: 20px 40px;
+    .fontSizeWeight {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .image  {
+        width: 100px;
+        height: 160px;
+        object-fit: cover;
+    }
+    .title  {
+        margin-top: 10px;
+        @extend .fontSizeWeight;
+    }
+    .content    {
+        margin-left: 20px;
+    }
+    .priceCount {        
+        @extend .fontSizeWeight;
+    }
+}

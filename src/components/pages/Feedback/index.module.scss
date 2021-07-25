@@ -1,0 +1,15 @@
+@import "../../../styles/index.scss";
+
+.background {
+  padding: 50px 50px;
+  :global(.MuiCard-root)  {
+    width: 300px;
+  }
+  :global(.MuiCardActions-root) {
+    display: inline-block;
+  }
+  .title  {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

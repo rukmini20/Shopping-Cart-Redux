@@ -1,0 +1,12 @@
+@import "../../../styles/index.scss";
+
+.background {
+    padding: 25px;
+    .title  {
+        color: $commonBlack;
+        font-size: 28px;
+        border-bottom: 1px solid $commonGrey;
+        padding-bottom: 15px;
+    }
+}
+

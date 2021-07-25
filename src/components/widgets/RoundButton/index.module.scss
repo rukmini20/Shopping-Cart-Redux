@@ -1,0 +1,19 @@
+@import "../../../styles/index.scss";
+
+$roundButtonRadius: 45px;
+
+.background {
+    :global(.MuiIconButton-root)   {
+        background: $indigoColor;
+        height: $roundButtonRadius;
+        width: $roundButtonRadius;
+
+        &:hover {
+            background: $indigoColor;
+            opacity: 0.7;
+        }
+    }
+    :global(.MuiSvgIcon-root)   {
+        fill: $commonWhite;
+    }
+}
